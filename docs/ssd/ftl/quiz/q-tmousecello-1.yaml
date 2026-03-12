@@ -1,7 +1,7 @@
 author: tmousecello
 date: 2026-03-08
 question: |
-  現代 SSD Controller 經常透過快取技術平衡 TLC 顆粒的效能瓶頸。我們希望能在不額外增加硬體與封裝成本的前提下，有效緩解 TLC 寫入速度較慢與寫入放大 (WAF) 的問題，下列哪一項技術是目前最主流且能直接達成的解決方案？
+  現代 SSD Controller 經常透過快取技術平衡 TLC 顆粒的效能瓶頸。我們希望能在不額外增加硬體與封裝成本的前提下，有效緩解 TLC 寫入速度較慢的問題，下列哪一項技術是目前最主流且能直接達成的解決方案？
 options:
   - text: "利用 NVMe 協定的 Host Memory Buffer (HMB) 功能，借用主機端 DRAM 作為寫入資料的快取空間。"
     explanation: |
